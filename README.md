@@ -17,7 +17,8 @@ vit
 Running the code:
 The notebooks are mostly self-contained since the notebooks were run on Kaggle. To reproduce the results, download the Kaggle dataset and read in the data with the appropriate file path. To modify the model, the parameters such as optimizer, loss, learning rate, and regularization are specified under the VisionTransformer header. Run the fit cell to train and evaluate the model, which will also print out training and validation (which serves as our test) accuracy as well as the other evaluation metrics. 
 
-ResNet50:
+ResNet50: 
+Run all code blocks and collect performance metrics from the "Train and Validate" code block outputs. On my device, the model took about 6:30 min per epoch to train and validate, however this time may vary for you depending on your device and GPU constraints.
 
 EfficientNet:
 
