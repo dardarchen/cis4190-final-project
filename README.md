@@ -1,6 +1,21 @@
-Each notebook in this repo corresponds to one of the models. See below for model-specific instructions:
+Each set of notebook(s) in this repo corresponds to one of the models. See below for model-specific instructions:
 
 ViT:
+
+Dependencies that need to be installed: 
+matplotlib,
+numpy,
+pandas,
+PIL,
+sklearn.model_selection: train_test_split,
+sklearn.metrics: precision_recall_fscore_support,
+tqdm.notebook,
+torch,
+torchvision,
+vit
+
+Running the code:
+The notebooks are mostly self-contained since the notebooks were run on Kaggle. To reproduce the results, download the Kaggle dataset and read in the data with the appropriate file path. To modify the model, the parameters such as optimizer, loss, learning rate, and regularization are specified under the VisionTransformer header. Run the fit cell to train and evaluate the model, which will also print out training and validation (which serves as our test) accuracy as well as the other evaluation metrics. 
 
 ResNet50:
 
