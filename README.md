@@ -7,23 +7,23 @@ ResNet50:
 EfficientNet:
 
 Dependencies that need to be installed:
-fmix
-opendatasets
-glob
-sklearn
-cv2
-skimage 
-torch
-torchvision
-pandas 
-numpy 
-tqdm 
-matplotlib
-timm
-joblib
-pydicom
-scipy
-catalyst
+fmix,
+opendatasets,
+glob,
+sklearn,
+cv2,
+skimage, 
+torch,
+torchvision,
+pandas,
+numpy, 
+tqdm, 
+matplotlib,
+timm,
+joblib,
+pydicom,
+scipy,
+catalyst,
 albumentations
 
 Running the code:
